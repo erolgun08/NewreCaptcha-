@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type:application/json; charset=UTF-8" />
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="rndm.js"></script> 
+ 
+</head>
+<body>
+ 
+<div  id="ust" style="border-radius: 15px;  border: 1px solid #73AD21;  padding: 5px;  width: 180px;  height: 130px;">
+
+ </div> 
+<input type="button" value="Gonder" disabled id="sub">	
+   
+<script> 
+$(document).ready(function(){  
+ for (var x in jQuery.cache){
+        delete jQuery.cache[x];
+    } 
+	var conf={
+	symbol:'?',
+	submit_button_id:"sub",
+	u_class:'form-control input-sm'
+	} 
+robot(conf) 
+})
+  </script> 
+  <script>
+ 	
+  </script> 
+   
+   
+</body>
+</html>
+ 
